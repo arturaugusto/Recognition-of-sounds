@@ -65,16 +65,21 @@ to do the action (run firefox)
 
 
 
-Requirements
+Requirements (Worked on my Linux Mint 17.3 Cinnamon 64-bit)
 ------------
 python 2.7
 
+	export LC_ALL=C
+	sudo apt-get install python2.7-dev
+	sudo apt-get install libblas-dev liblapack-dev libatlas-base-dev gfortran
+	sudo apt-get install g++
 	sudo apt-get install python-alsaaudio
+	sudo apt-get install libfreetype6-dev	
 
-	pip install pyalsaaudio==0.8.2
-	pip install numpy==1.9.2
-	pip install scipy==0.15.1
-	pip install matplotlib==1.4.3
+	pip2 install pyalsaaudio
+	pip2 install numpy
+	sudo pip2 install scipy
+	sudo pip2 install matplotlib
 
 ---------------------------------------------------
 The script is based on ideas and parts of the code from this article:
